@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    min-height: 100vh;
+    marker-start: 0;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3.5rem;
+    color: var(--purple);
+}
+
+.top-image {
+    width: 100%;
+    max-height: 200px;
+}
+
+.bottom-image {
+    width: 100%;
+    max-height: 350px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem 2rem;
+}
+
+.container .rocket {
+    width: 500px;
+    height: 100%;
+    margin-left: 3em;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
