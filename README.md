@@ -1,2 +1,2 @@
 # countdown
-projeto feito com base no Desafio "Countdown" da Rocketseat
+Projeto feito com base no Desafio "Countdown" da Rocketseat
